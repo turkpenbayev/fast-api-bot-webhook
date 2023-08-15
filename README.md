@@ -25,6 +25,7 @@
     NGROK_URL = '' Replace with your webhook URL
     ```
 
+    run script
     ```sh
     $ python set_webhook.py 
     ```
