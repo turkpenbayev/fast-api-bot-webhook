@@ -16,15 +16,14 @@
 3. run ngrok
 
     ```sh
-    ngrok http 8000
+    $ ngrok http 8000
     ```
 
-4. set webhook for bot:
+4. set webhook for bot modify set_webhook.py file:
 
     ```sh
     NGROK_URL = '' Replace with your webhook URL
     ```
-    NGROK_URL
 
     ```sh
     $ python set_webhook.py 
