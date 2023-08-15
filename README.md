@@ -7,7 +7,19 @@
     ```
 
 
-2. set webhook for bot:
+2. run app
+
+    ```sh
+    $ uvicorn app.main:app
+    ```
+
+3. run ngrok
+
+    ```sh
+    ngrok http 8000
+    ```
+
+4. set webhook for bot:
 
     ```sh
     NGROK_URL = '' Replace with your webhook URL
@@ -16,12 +28,6 @@
 
     ```sh
     $ python set_webhook.py 
-    ```
-
-3. run app
-
-    ```sh
-    $ uvicorn app.main:app
     ```
 
 
